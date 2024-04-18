@@ -14,5 +14,5 @@ provider "aws" {
 }
 
 resource "aws_secretsmanager_secret" "attributes-test" {
-  name = "attributes-test"
+  name = "attributes-testing"
 }
